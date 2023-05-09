@@ -37,19 +37,24 @@ g++ --version
 6. clone the repository
 
 ```
-git clone 
+git clone https://github.com/AlphaOmegaGithub/dotnet-cpp-dll-simple-hello-world.git
 ```
 
 7. go to the repository folder
 
 ```
-cd tommyngo
+cd dotnet-cpp-dll-simple-hello-world
 ```
 
 8. compile the code
 
 ```
 ./build.bat
+```
+or maybe this 
+
+```
+ build.bat
 ```
 
 the build.bat just run the following command known from linux
