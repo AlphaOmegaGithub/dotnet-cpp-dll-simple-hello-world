@@ -6,6 +6,10 @@ class Program
     [DllImport("MYLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
     public static extern void FillArrayWithRandomNumbers(int[] arr, UIntPtr size);
 
+    
+    [DllImport("MYLibrary.dll", CallingConvention = CallingConvention.Cdecl)]
+    public static extern void CalcDelay(int[] arr, UIntPtr size);
+
 
     static void Main()
     {
@@ -16,6 +20,10 @@ class Program
         {
             Console.Write(arr[i] + " ");
         }
+        Console.WriteLine();
+
+        CalcDelay(arr, (UIntPtr)arr.Length);
+        Console.Write("First modified to: " , arr[0]);
         Console.WriteLine();
     }
 }
