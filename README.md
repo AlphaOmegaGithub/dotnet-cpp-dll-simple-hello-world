@@ -2,8 +2,8 @@
 
 This task involves writing a C# Server that interacts with a C/C++ DLL and manages large datasets. The aim is to understand your ability to handle large volumes of data and employ suitable technology for this purpose.
 
-1. implement a mechanism that calls the function ``FillArrayWithRandomNumbers(arr, (UIntPtr)arr.Length);`` every 15 milliseconds and tranfer this data to the front end to Graph1.
-2. implement a mechanism that will store the data from the last function in a database. Then run the function ``CalcDelay`` on each value from the database , and send its output to the front end to Graph2.
+1. implement a mechanism that calls the function ``FillArrayWithRandomNumbers(arr, (UIntPtr)arr.Length);`` every 15 milliseconds and transfer this data to the front end to Graph1.
+2. implement a mechanism that will store the data from the last function in a database. Then run the function ``CalcDelay`` on each value from the database, and send its output to the front end to Graph2.
 
 Requirements:
 
@@ -12,9 +12,9 @@ Requirements:
 3. Front-End integration: output the data to ReactJS front end https://github.com/AlphaOmegaGithub/interview-assignment-frontend-check/tree/main
 
 Deliverables:
-1. Code: Push your source code to a provided GitHub repository. (submit a pull request)
+1. Code: Push your source code to this GitHub repository. (submit a pull request preferred)
 2. Instructions: Include a ReadMe file with instructions on how to set up and run the application.
-3. Documentation: Document your approach and decision-making process regarding data handling.
+3. Documentation: Document your approach and decision-making process regarding data handling in short.
 4. Demonstration: Show the handling of a large amount of data through your solution.
 
 
