@@ -25,6 +25,7 @@ You'll be evaluated on:
 2. Efficiency in data processing and handling.
 3. Suitability of the chosen database and connection architecture for large data.
 4. Documentation and explanation of your decision-making process.
+5. Your Experience using GitHub.
 
 Remember, the focus is on your approach to handling large amounts of data and your ability to learn and use appropriate technologies for it. Good luck!
 
