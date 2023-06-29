@@ -90,6 +90,11 @@ dotnet build
 dotnet run
 ```
 
+or if encounter a problem
+```
+dotnet run --runtime win-x64
+```
+
 * if you don't have dotnet installed you can download its SDK from https://dotnet.microsoft.com/en-us/download, download version 7.
 
 and Vuala!, the C# project is running with the c++ dll! 
