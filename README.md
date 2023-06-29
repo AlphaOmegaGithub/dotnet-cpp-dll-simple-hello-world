@@ -1,6 +1,6 @@
 # How to run
 
-pre-requisites: c++ compiler for windows 64 bit
+pre-requisites: c++ compiler for windows 64 bit and dotnet sdk
 
 1. install MinGW-x64
 
@@ -89,6 +89,8 @@ dotnet build
 ```
 dotnet run
 ```
+
+* if you don't have dotnet installed you can download its SDK from https://dotnet.microsoft.com/en-us/download, download version 7.
 
 and Vuala!, the C# project is running with the c++ dll! 
 
